@@ -1,21 +1,14 @@
-/**
- * Author: e-Fafali
- * Purpose: use puts to display stuff
- * filename: 4-puts.c
-*/
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
+ * main - Main code
  * puts: prints an output to the terminal
- *
- * Return: (0) Sucess
+ * Return: Always (0) (Success)
 */
 
 int main(void)
 {
-	char str[100] = "\"Programming is like building a multilingual puzzle\n";
+	char str[100] = "\"Programming is like building a multilingual puzzle";
 
 	puts(str);
 
