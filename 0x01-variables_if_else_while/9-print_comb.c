@@ -13,18 +13,17 @@
 
 int main(void)
 {
-	char num = '0';
+	int num;
 
 	/* Usung a while loop to iterate ch*/
-	while (num <= '9')
+	for (num = 0;num <= 9; num++)
 	{
-		putchar(num);
-		if (num != '9')
+		putchar('0' + num);
+		if (num != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		num++;
 	}
 	putchar('\n');
 
