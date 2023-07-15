@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
-  * main - Main code 
+  * main - Main code
   * Description: a code to print the last digit of a number
   * and determine if its less than 6 or 0
   * Return: Always (0)
