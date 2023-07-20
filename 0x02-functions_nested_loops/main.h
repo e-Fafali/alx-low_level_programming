@@ -25,3 +25,6 @@ int _abs(int);
 
 /* A function to print the last value of a number*/
 int print_last_digit(int);
+
+/* A function that prints 24 hrs*/
+void jack_bauer(void);
