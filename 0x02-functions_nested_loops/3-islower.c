@@ -2,7 +2,9 @@
 #include "main.h"
 
 /**
-  * _islower - as described
+  * _islower - check if the entered value is lowercase
+  * @c: stores the value of the input
+  * Return: 0 or 1
  */
 
 int _islower(int c)
