@@ -16,3 +16,6 @@ int _islower(int c);
 
 /* Function to check if a x'ter is a letter*/
 int _isalpha(int c);
+
+/* Fuction to print the sign of a number*/
+int print_sign(int n);
