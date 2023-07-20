@@ -13,3 +13,6 @@ void print_alphabet_x10(void);
 
 /* Function to check if it's lower case*/
 int _islower(int c);
+
+/* Function to check if a x'ter is a letter*/
+int _isalpha(int c);
