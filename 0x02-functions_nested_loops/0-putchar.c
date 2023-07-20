@@ -26,5 +26,5 @@ int main(void)
 			_putchar(words[count]);
 	}
 
-	return (1);
+	return (0);
 }
