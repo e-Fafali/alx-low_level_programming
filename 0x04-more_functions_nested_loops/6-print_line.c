@@ -2,14 +2,16 @@
 #include<stdio.h>
 
 /**
- * more_numbers - print more numbers with putchar
+ * print_line - print a line with putchar using an '_'
+ *
+ * @n: a variable that determines the lenght of the line
  *
  * Return: 0 Always
  */
 
 void print_line(int n)
 {
-	int i; 
+	int i;
 
 	for (i = 0; i < n; i++)
 	{
