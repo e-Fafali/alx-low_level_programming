@@ -18,3 +18,6 @@ void print_numbers(void);
 
 /* print most numbers except 2 and 4*/
 void print_most_numbers(void);
+
+/* A function to print most numbers*/
+void more_numbers(void);
