@@ -15,3 +15,6 @@ int mul(int a, int b);
 
 /* Print number for 0-9*/
 void print_numbers(void);
+
+/* print most numbers except 2 and 4*/
+void print_most_numbers(void);
