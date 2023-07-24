@@ -21,3 +21,6 @@ void print_most_numbers(void);
 
 /* A function to print most numbers*/
 void more_numbers(void);
+
+/* A function to print a line using _*/
+void print_line(int n);
