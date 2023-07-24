@@ -24,3 +24,6 @@ void more_numbers(void);
 
 /* A function to print a line using _*/
 void print_line(int n);
+
+/* A function to print diagonal line*/
+void print_diagonal(int n);
