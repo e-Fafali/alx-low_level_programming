@@ -10,3 +10,9 @@ void swap_int(int *a, int *b);
 
 /* A function that returns the lenght of a given string */
 int _strlen(char *s);
+
+/* A function that prints a string */
+void _puts(char *str);
+
+/* putchar */
+int _putchar(char c);
