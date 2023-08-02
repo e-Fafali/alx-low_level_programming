@@ -16,3 +16,6 @@ void _puts(char *str);
 
 /* putchar */
 int _putchar(char c);
+
+/* Printing a string in reverse */
+void print_rev(char *s);
