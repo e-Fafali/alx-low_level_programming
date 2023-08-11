@@ -19,3 +19,6 @@ int _putchar(char c);
 
 /* Printing a string in reverse */
 void print_rev(char *s);
+
+/* A function that reverses a string */
+void rev_string(char *s);
