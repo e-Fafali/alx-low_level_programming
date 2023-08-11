@@ -4,7 +4,7 @@
 
 /**
  * string_nconcat - concat tw strings.
- * 
+ *
  * @s1: string 1
  * @s2: string 2
  * @n: index(list)
@@ -16,10 +16,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *m;
 	unsigned int size_1 = 0;
-	unsigned int size_2 = 0; 
-	unsigned int x;
+	unsigned int size_2 = 0, x;
 
-	/*  */
 	if (s1 == NULL)
 		s1 = "";
 
@@ -27,7 +25,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 
 	/* let's do some cutting : */
-
 	while (s1[size_1] != '\0')
 	{
 		size_1++;
