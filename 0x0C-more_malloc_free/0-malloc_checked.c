@@ -6,7 +6,7 @@
 /**
  * malloc_checked - a function that checks and allocate memory
  *
- * @d: value 
+ * @b: value
  *
  * Return: void
  */
