@@ -28,3 +28,6 @@ void puts2(char *str);
 
 /* A function that prints only half of a string */
 void puts_half(char *str);
+
+/* A function that prints the elements of an array */
+void print_array(int *a, int n);
