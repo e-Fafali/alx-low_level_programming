@@ -2,32 +2,34 @@
 #include "main.h"
 
 /**
- * print_rev - a function that prints a string in reverse
+ * rev_string - a function that prints a string in reverse
  *
-	 * @s: a variable
-	 *
+ * @s: a variable
+ *
  * Return: Always 0
  */
 
 void rev_string(char *s)
 {
-	int ch, x;
+	int i, size_a, half;
+	char first, last;
 
-	ch = 0;
-	
-	int 
-	
-	printf("the size of an the s array %lu \n", sizeof(s[]));
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
 
-	while (s[ch] != '\0')
+	/* Let's reverse it */
+	size_a = i - 1;
+	half = size_a / 2;
+	while (half >= 0)
 	{
-		ch++;
+		first = s[size_a - half];
+		last = s[half];
+		s[half] = first;
+		s[size_a - half] = last;
+		half--;
 	}
-	for (x = ch - 1; x >= 0; x--)
-	{
-		s[ch] = x;
-		/* _putchar(s[x]); */
-	}
-	/* _putchar('\n'); */
 
 }
