@@ -25,3 +25,6 @@ void rev_string(char *s);
 
 /* A function that skips part of a string */
 void puts2(char *str);
+
+/* A function that prints only half of a string */
+void puts_half(char *str);
