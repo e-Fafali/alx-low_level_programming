@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	printf("%s \n", FILE);
+	printf("%s\n", FILE);
 
 	return (0);
 }
