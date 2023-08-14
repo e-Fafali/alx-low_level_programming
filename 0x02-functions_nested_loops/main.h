@@ -28,3 +28,6 @@ int print_last_digit(int);
 
 /* A function that prints 24 hrs*/
 void jack_bauer(void);
+
+/* A function that prints the 9 times table*/
+void times_table(void);

@@ -30,3 +30,6 @@ void print_diagonal(int n);
 
 /* A function that prints a square*/
 void print_square(int size);
+
+/* Afunction to print a triagle */
+void print_traingle(int size);
