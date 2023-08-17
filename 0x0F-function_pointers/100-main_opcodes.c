@@ -33,13 +33,13 @@ int main(int argc, char *argv[])
 
 	for (x = 0; x < bytes; x++)
 	{
-		if (i == bytes - 1)
+		if (x == bytes - 1)
 		{
 			/* let's do some thing weird*/
-			printf("%02hhx\n", arr[i]);
+			printf("%02hhx\n", vox[x]);
 			break;
 		}
-		printf("%02hhx ", arr[i]);
+		printf("%02hhx ", vox[x]);
 	}
 	return (0);
 }
