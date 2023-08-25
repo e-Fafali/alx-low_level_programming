@@ -3,7 +3,7 @@
 
 /**
  * free_list - let's free some stuff
- * 
+ *
  * @head: stuff to free
  *
  * Return: nothing
