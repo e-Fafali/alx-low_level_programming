@@ -34,4 +34,7 @@ size_t list_len(const list_t *h);
 /* a function that adds new elements to the begining of linked list */
 list_t *add_node(list_t **head, const char *str);
 
+/* a function that adds new elements to the end of a linked list */
+list_t *add_node_end(list_t **head, const char *str);
+
 #endif
