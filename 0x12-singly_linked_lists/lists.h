@@ -37,4 +37,7 @@ list_t *add_node(list_t **head, const char *str);
 /* a function that adds new elements to the end of a linked list */
 list_t *add_node_end(list_t **head, const char *str);
 
+/* A function that frees a linked list */
+void free_list(list_t *head);
+
 #endif
